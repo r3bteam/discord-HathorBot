@@ -1641,4 +1641,4 @@ bot.on('voiceStateUpdate', (oldMember, newMember) =>{
 	}
 });
 
-bot.login(botLogin.token);
+bot.login(process.env.BOT_TOKEN);
