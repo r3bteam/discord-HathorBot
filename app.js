@@ -238,7 +238,7 @@ function play(connection, message) {
 		.on('error', (error)=>{
 			sendError("Playback", error, message.channel);
 		});
-	botPlayback.setVolume(0.5);
+	botPlayback.setVolume(1.0);
 	playing = true;
 }
 
